@@ -1,3 +1,5 @@
+package main.kotlin
+
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -51,12 +53,12 @@ fun proceedWithDataHandling(inputData: List<String>) {
     System.exit(0)
 }
 
-private fun isValidInput(input: String): Boolean {
+fun isValidInput(input: String): Boolean {
     val inputValidatorPattern = "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))\\s[A-Z][a-z]*".toRegex()
     return input.matches(inputValidatorPattern)
 }
 
-private fun parseInputToBirthdayData(input: String, formatter: SimpleDateFormat): BirthdayData {
+fun parseInputToBirthdayData(input: String, formatter: SimpleDateFormat): BirthdayData {
     val dividerIndex = input.indexOf(' ')
     val birthdayDate = Calendar.getInstance()
     birthdayDate.time = formatter.parse(input.substring(0, dividerIndex))
@@ -64,14 +66,14 @@ private fun parseInputToBirthdayData(input: String, formatter: SimpleDateFormat)
     return BirthdayData(birthdayDate, personName)
 }
 
-private fun hasBirthdayNextMonth(birthdayMonth: Int): Boolean {
+fun hasBirthdayNextMonth(birthdayMonth: Int): Boolean {
     val calendar: Calendar = Calendar.getInstance()
     calendar.time = Date(System.currentTimeMillis())
     val currentMonth = calendar.get(Calendar.MONTH)
     return birthdayMonth - currentMonth == 1
 }
 
-private fun outputDataToMap(outputDataList: List<BirthdayData>): Map<String, StringBuilder> {
+fun outputDataToMap(outputDataList: List<BirthdayData>): Map<String, StringBuilder> {
     val dataMap = hashMapOf<String, StringBuilder>()
     for (birthdayData in outputDataList) {
         val birthdayPartyDate = birthdayData.birthdayPartyDate
