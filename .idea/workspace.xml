@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efbf73e3-1c40-4bcd-8bde-757ff89f67d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlin_kotlin_test_1_3_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/AppTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Birthday Parties.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Birthday Parties.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Birthday Parties/AppKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Birthday Parties/BirthdayData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Birthday Parties/BirthdayPartyCalculatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Birthday Parties/META-INF/Birthday Parties.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Birthday Parties/META-INF/Birthday Parties.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BirthdayData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BirthdayData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BirthdayPartyCalculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,22 +17,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/App.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="e#0#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="675">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/AppTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="35" column="106" selection-start-line="35" selection-start-column="106" selection-end-line="35" selection-end-column="106" />
+            <state relative-caret-position="210">
+              <caret line="14" column="110" selection-start-line="14" selection-start-column="95" selection-end-line="14" selection-end-column="110" />
               <folding>
-                <element signature="e#21#150#0" expanded="true" />
+                <element signature="e#21#215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/Console.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="2160">
               <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
             </state>
           </provider>
@@ -61,19 +47,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="22080">
               <caret line="1532" column="18" selection-start-line="1532" selection-start-column="18" selection-end-line="1532" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="400">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Birthday Parties.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -122,9 +113,9 @@
         <option value="$PROJECT_DIR$/src/BirthdayPartyCalculator.kt" />
         <option value="$PROJECT_DIR$/src/App.kt" />
         <option value="$PROJECT_DIR$/src/main/App.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/App.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/AppTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt" />
       </list>
     </option>
   </component>
@@ -140,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +160,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +168,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592152676823" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592204061654" />
     <property name="last.edited.regexp" value="1979-05-19 Dave" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -201,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="Kotlin.main.kotlin.AppKt">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Birthday Parties" />
       <extension name="coverage">
@@ -232,8 +223,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Kotlin.main.kotlin.AppKt" />
+        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,25 +239,80 @@
       <option name="presentableId" value="Default" />
       <updated>1592130095949</updated>
     </task>
+    <task id="LOCAL-00001" summary="Unit tests added">
+      <created>1592152573237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592152573237</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unit tests added">
+      <created>1592152677017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592152677017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Unit tests added">
+      <created>1592152687987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592152687987</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Unnecessary checks removed">
+      <created>1592153292865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592153292865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Unnecessary checks removed">
+      <created>1592154324035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592154324035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Minor refactoring, additional tests added">
+      <created>1592203989062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592203989062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2020.06.14 at 19h 15m 26s.xml">
+    <history-entry file="AppTest - 2020.06.15 at 09h 40m 52s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.06.14 at 19h 19m 08s.xml">
+    <history-entry file="AppTest - 2020.06.15 at 09h 41m 16s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.06.14 at 19h 19m 32s.xml">
+    <history-entry file="AppTest - 2020.06.15 at 09h 42m 13s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.06.14 at 19h 23m 05s.xml">
+    <history-entry file="AppTest - 2020.06.15 at 09h 44m 35s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.06.14 at 19h 29m 57s.xml">
+    <history-entry file="AppTest - 2020.06.15 at 09h 45m 54s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.06.14 at 19h 30m 53s.xml">
+    <history-entry file="AppTest - 2020.06.15 at 09h 46m 13s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.06.15 at 09h 46m 39s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.06.15 at 09h 47m 12s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.06.15 at 09h 49m 12s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.06.15 at 09h 49m 53s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -274,7 +320,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -283,15 +329,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33045357" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3275862" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297414" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,34 +348,43 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unit tests added" />
+    <MESSAGE value="Unnecessary checks removed" />
+    <MESSAGE value="Minor refactoring, additional tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor refactoring, additional tests added" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BirtdayData.java" />
     <entry file="file://$PROJECT_DIR$/src/InputValidator.kt" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Calendar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/App.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23190">
-          <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="1532" column="18" selection-start-line="1532" selection-start-column="18" selection-end-line="1532" selection-end-column="18" />
+        <state relative-caret-position="675">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/Console.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="2160">
           <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="22080">
+          <caret line="1532" column="18" selection-start-line="1532" selection-start-column="18" selection-end-line="1532" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Birthday Parties.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23190">
+          <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -340,23 +395,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/App.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/AppTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="210">
+          <caret line="14" column="110" selection-start-line="14" selection-start-column="95" selection-end-line="14" selection-end-column="110" />
           <folding>
-            <element signature="e#0#88#0" expanded="true" />
+            <element signature="e#21#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/AppTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/BirthdayPartyCalculator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="35" column="106" selection-start-line="35" selection-start-column="106" selection-end-line="35" selection-end-column="106" />
-          <folding>
-            <element signature="e#21#150#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>

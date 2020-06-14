@@ -2,21 +2,20 @@ package main.kotlin
 
 import java.util.Calendar
 
-fun getBirthdayPartyDate(birthdayCalendar: Calendar): Calendar {
-    val monthOfBirth = birthdayCalendar.get(Calendar.MONTH)
-    val dayOfBirth = birthdayCalendar.get(Calendar.DAY_OF_MONTH)
+fun getBirthdayPartyDate(birthday: Calendar): Calendar {
+    val monthOfBirth = birthday.get(Calendar.MONTH)
+    val dayOfBirth = birthday.get(Calendar.DAY_OF_MONTH)
     var birthdayPartyCalendar =
         getSundayPartyDate(getInitializedCalendarInstance(monthOfBirth, dayOfBirth))
 
-    val birthdayMonth = birthdayCalendar.get(Calendar.MONTH)
-    val sundayPartyMonth = birthdayPartyCalendar.get(Calendar.MONTH)
+    val monthToCelebrateOnSunday = birthdayPartyCalendar.get(Calendar.MONTH)
 
-    if (birthdayMonth < sundayPartyMonth) {
+    if (monthOfBirth < monthToCelebrateOnSunday) {
         val saturdayPartyDate =
             getSaturdayPartyDate(getInitializedCalendarInstance(monthOfBirth, dayOfBirth))
 
-        val saturdayPartyMonth = saturdayPartyDate.get(Calendar.MONTH)
-        if (birthdayMonth == saturdayPartyMonth) {
+        val monthToCelebrateOnSaturday = saturdayPartyDate.get(Calendar.MONTH)
+        if (monthOfBirth == monthToCelebrateOnSaturday) {
             birthdayPartyCalendar = saturdayPartyDate
         }
     }
@@ -30,12 +29,12 @@ fun getInitializedCalendarInstance(monthOfBirth: Int, dayOfBirth: Int): Calendar
     return currentCalendar
 }
 
-fun getSundayPartyDate(birthdayCalendar: Calendar): Calendar {
-    return getNextSunday(birthdayCalendar)
+fun getSundayPartyDate(birthday: Calendar): Calendar {
+    return getNextSunday(birthday)
 }
 
-fun getSaturdayPartyDate(birthdayCalendar: Calendar): Calendar {
-    return getNextSaturday(birthdayCalendar)
+fun getSaturdayPartyDate(birthday: Calendar): Calendar {
+    return getNextSaturday(birthday)
 }
 
 

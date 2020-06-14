@@ -18,7 +18,9 @@ fun main() {
 
             if (readString.isEmpty()) {
                 if (!inputDataList.isEmpty()) {
-                    proceedWithDataHandling(inputDataList)
+                    proceedWithDataHandling(inputDataList) {
+                        System.exit(0)
+                    }
                 } else {
                     println("No valid input!")
                     System.exit(0)
@@ -34,23 +36,23 @@ fun main() {
     }
 }
 
-fun proceedWithDataHandling(inputData: List<String>) {
+fun proceedWithDataHandling(inputData: List<String>, onFinishedProcessing: () -> Unit) {
     val formatter = SimpleDateFormat(DATE_FORMAT_PATTERN)
 
-    val nextMonthBithdays =
+    val upcomingMonthBirthdays =
         inputData.map { parseInputToBirthdayData(it, formatter) }
             .filter { hasBirthdayNextMonth(it.birthdayDate.get(Calendar.MONTH)) }
 
-    if (!nextMonthBithdays.isEmpty()) {
-        for (bd in nextMonthBithdays) {
-            bd.birthdayPartyDate = formatter.format(getBirthdayPartyDate(bd.birthdayDate).time)
+    if (!upcomingMonthBirthdays.isEmpty()) {
+        for (birthdayData in upcomingMonthBirthdays) {
+            birthdayData.birthdayPartyDate = formatter.format(getBirthdayPartyDate(birthdayData.birthdayDate).time)
         }
 
-        printOutputData(outputDataToMap(nextMonthBithdays))
+        printOutputData(outputDataToMap(upcomingMonthBirthdays))
     } else {
         println("No birthdays in upcoming month found")
     }
-    System.exit(0)
+    onFinishedProcessing()
 }
 
 fun isValidInput(input: String): Boolean {
@@ -90,11 +92,8 @@ fun outputDataToMap(outputDataList: List<BirthdayData>): Map<String, StringBuild
             } else {
                 val personsNames = StringBuilder()
                 personsNames.append(
-                    if (personsNames.isEmpty()) {
-                        birthdayData.personName
-                    } else {
-                        ", ${birthdayData.personName}"
-                    }
+                    birthdayData.personName
+
                 )
                 dataMap.put(it, personsNames)
             }

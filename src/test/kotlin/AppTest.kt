@@ -6,7 +6,8 @@ import org.junit.Test
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.test.assertEquals
-import kotlin.test.assertNotNull
+import kotlin.test.assertFalse
+import kotlin.test.assertNotEquals
 
 
 class AppTest {
@@ -34,11 +35,28 @@ class AppTest {
 
     @Test
     fun testSaturdayCalculatingCorrect() {
-        assertEquals(getSundayPartyDate(getInitializedCalendarInstance(30, 3)).get(Calendar.DAY_OF_WEEK),  Calendar.SUNDAY)
+        assertEquals(
+            getSaturdayPartyDate(getInitializedCalendarInstance(11, 30)).get(Calendar.DAY_OF_WEEK),
+            Calendar.SATURDAY
+        )
     }
 
     @Test
     fun testOutputData() {
-        assertNotNull(outputDataToMap(listOf(parseInputToBirthdayData(inputData[3], formatter))))
+
+        val birthdayData = parseInputToBirthdayData(inputData[3], formatter)
+        val upcomingMonthBirthdays = arrayListOf(birthdayData, birthdayData, birthdayData, birthdayData)
+        for (birthdayData in upcomingMonthBirthdays) {
+            birthdayData.birthdayPartyDate = formatter.format(getBirthdayPartyDate(birthdayData.birthdayDate).time)
+        }
+        println(outputDataToMap(upcomingMonthBirthdays))
+
+        assertFalse { outputDataToMap(upcomingMonthBirthdays).isEmpty() }
+    }
+
+    @Test
+    fun testMonthLastDateCalculation() {
+        assertEquals(31, getMonthLastDate(0, 2020))
+        assertNotEquals(31, getMonthLastDate(1, 2020))
     }
 }
